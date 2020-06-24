@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="./style/style.css">
+        <title>Decimal to Binary</title>
+    </head>
+    <body>
+        <div class="converter">
+            <p>decimal to binary/octal/hexadecimal converter</p>
+            <label for="decimal">decimal number</label>
+            <input class="inp" id="decimal" type="text" required>
+            <label for="binary">binary number</label>
+            <p id="converted"></p>
+            <select class="selectList">
+                <option value="bin">BINARY</option>
+                <option value="hex">HEX</option>
+                <option value="oct">OCT</option>
+            </select>
+            <button class="confirm">convert</button>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
